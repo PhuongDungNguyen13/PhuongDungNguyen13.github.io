@@ -1,11 +1,21 @@
 body {
-	font-family:monospace;
-	font-size:larger;
+	font-family:fantasy;
+	font-size: 20%;
 }
 
 a {
 	color:red;
 }
+.title {
+	font-size: 300px;
+	font-family: Arial Black;
+}
+
+@font-face {
+	font-family: Arial Black;
+	src:url("fonts/");
+}
+
 
   .container {
 	display:flex;
@@ -103,5 +113,16 @@ a {
 	display: block;
   }
   
+  .grid{
+display: flex;
+flex-wrap: wrap;
+  }
   
-  
+.graphic{
+width:33.333%;
+
+}
+
+.graphic img{
+width: 100%;
+}
