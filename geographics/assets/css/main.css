@@ -1,118 +1,102 @@
 body {
 	font-family:fantasy;
 	font-size: 20%;
+  background-color: black;
 }
 
 a {
 	color:red;
 }
 .title {
-	font-size: 300px;
-	font-family: Arial Black;
-}
-
-@font-face {
-	font-family: Arial Black;
-	src:url("fonts/");
-}
-
-
-  .container {
-	display:flex;
-	flex-wrap:wrap;
-
-  }
-  
-  .medium {
-	width:50%;
-  }
-  
-  .small {
-	width:25%;
-  }
-  
-  .large {
-	width:60%;
-  }
-  
-  .item img {
-	width:100%;
-  }
-  
-  .left25 {
-	margin-left:25%;
-  }
-  
-  .left50 {
-	margin-left:50%;
-  }
-  
-  .nav {
-	font-size:30px;
-	position:fixed;
-  }
-  
-  * {
-	box-sizing: border-box;
-  }
-  
-  body {
-	font-size: 30px;
-  }
-  
-  .title {
 	font-size: 100px;
-  }
-  
-  .subtitle {
-	display: flex;
-	flex-wrap: wrap;
-	position: sticky;
-	width: 100%;
-	top: 0px;
-	left: 0px;
-  }
-  
-  .left {
-	width: 50%;
-  }
-  
-  .right {
-	width: 50%;
-  }
-  
+  color: white;
+  width: 100%;
+}
+
+.subtitle{
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 70px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.left {
+  width: 30%;
+  height: 70vh;
+  background-color: rgb(211, 211, 211);
+  overflow: scroll;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+.right {
+  width: 70%;
+  height: 70vh;
+  background-color:chartreuse;
+  overflow: scroll;
+  padding: 20px;
+  color: white;
+  font-size: 100px;
+}
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+.symbol{
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+.text {
+  color: white;
+  font-size: 60px;
+}
   .main {
 	display: flex;
 	flex-wrap: wrap;
   }
-  
-  .business {
-	width: 50%;
-	display: flex;
-	flex-wrap: wrap;
-  }
-  
+
   .life {
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
   }
   
+  .book{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
   .thumbnail {
 	width: 50%;
 	padding: 20px;
-	border: 2px solid blue;
+  font-size: 30px;
+
   }
-  
+
   .thumbnail.landscape {
-	width: 100%;
+	width: 60%;
   }
   
   .thumbnail img {
 	width: 100%;
 	display: block;
   }
-  
+
   .grid{
 display: flex;
 flex-wrap: wrap;
@@ -120,9 +104,16 @@ flex-wrap: wrap;
   
 .graphic{
 width:33.333%;
+font-size: 30%;
+left: 50%;
+right: 50%
 
 }
-
 .graphic img{
 width: 100%;
+}
+
+.life{
+  font-size: 100px;
+  color: white; 
 }
